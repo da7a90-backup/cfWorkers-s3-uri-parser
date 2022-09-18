@@ -140,4 +140,4 @@ function AmazonS3URI (uri) {
  */
 AmazonS3URI.prototype.DEFAULT_REGION = DEFAULT_REGION
 
-exports = module.exports = AmazonS3URI
+export default AmazonS3URI;
