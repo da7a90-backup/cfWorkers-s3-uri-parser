@@ -12,9 +12,6 @@
     "index.d.ts"
   ],
   "scripts": {
-    "pretest": "standard ./lib",
-    "test": "nyc tape 'test/**/*.test.js'",
-    "posttest": "nyc report --reporter=lcov",
     "generate-types": "tsc",
     "release": "release-it"
   },
