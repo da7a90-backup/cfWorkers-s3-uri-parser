@@ -23,11 +23,11 @@ const DEFAULT_REGION = 'us-east-1'
  * @param {string} uri - the URI to parse
  * @throws {TypeError|Error}
  */
-class AmazonS3URI {
+ function AmazonS3URI (uri) {
   /**
    * @param {string | URL} uri
    */
-  constructor(uri) {
+ 
     if (new.target === undefined) {
       return new AmazonS3URI(uri)
     }
@@ -136,7 +136,7 @@ class AmazonS3URI {
     if (this.key !== null) {
       this.key = decodeURIComponent(this.key)
     }
-  }
+  
 }
 
 /**
@@ -145,4 +145,4 @@ class AmazonS3URI {
  */
 AmazonS3URI.prototype.DEFAULT_REGION = DEFAULT_REGION
 
-export default AmazonS3URI;
+exports = module.exports = AmazonS3URI
