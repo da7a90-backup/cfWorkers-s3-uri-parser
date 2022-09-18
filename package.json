@@ -1,8 +1,8 @@
 {
-  "name": "amazon-s3-uri",
+  "name": "cfworkers-s3-uri-parser",
   "version": "0.1.1",
   "description": "A URI wrapper that can parse out information about an S3 URI",
-  "repository": "frantz/amazon-s3-uri",
+  "repository": "da7a90-backup/cfWorkers-s3-uri-parser",
   "main": "lib/amazon-s3-uri.js",
   "types": "index.d.ts",
   "engines": {
@@ -24,7 +24,7 @@
     "uri",
     "parser"
   ],
-  "author": "Frantz Gauthier <frantz@myentropy.org>",
+  "author": "Sid Barrack <sidbarrack@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^14.11.2",
